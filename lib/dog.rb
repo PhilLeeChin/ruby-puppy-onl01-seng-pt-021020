@@ -9,10 +9,6 @@ class Dog
     @@all << self
   end
 
-  def self.all
-    @@all
-  end
-
   def self.clear_all
     @@all.clear
   end
@@ -22,4 +18,6 @@ class Dog
       puts dog.name
     end
   end
+
+  def save
 end
